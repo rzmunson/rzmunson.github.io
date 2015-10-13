@@ -1,0 +1,127 @@
+body {
+    font-family: 'Cinzel', sans-serif; font-size: 16px;
+
+}
+
+.clear-fix:after {
+    content: '';
+    display: block;
+    clear: both;
+
+}
+
+header h1 {
+    font-size: 2em;
+    float: left;
+    
+
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+
+}
+
+header a {
+    color: black;
+    text-decoration: none; 
+    margin-left: 15px;
+}
+
+#wine-back {
+    background: linear-gradient(to bottom, rgba(60, 20, 20, 0.9) 0%, rgba(60, 0, 0, 0.8) 100%), url('../imgs/wine-bg.jpg');
+    padding: 250px 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+
+}
+
+#wine-back h2 {
+    font-size: 70px;
+}
+
+#wine-back q {
+
+}
+
+#wine-back p {
+
+}
+
+#second div:first-child {
+    float: left;
+    text-align: center;
+    width: 40%;
+    padding: 150px 25px;
+
+}
+
+#second h3 {
+    font-weight: 700;
+    padding: 50px;
+    font-style: italic;
+    font-family: "Georgia", sans-serif;
+
+}
+
+#second p {
+    padding: 25px;
+
+}
+
+#third {
+    /*shorthand below:
+    background: linear-gradient(to bottom, rgba(60, 20, 20, 0.9) 0%, rgba(60, 0, 0, 0.8) 100%), url('../imgs/wine-bg.jpg');
+    padding: 250px 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: #fff;*/
+    
+     background: linear-gradient(to bottom, rgba(60, 20, 20, 0.9) 0%, rgba(60, 0, 0, 0.8) 100%), url('../imgs/wine13.jpg') no-repeat;
+    padding: 150px 50px;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+
+}
+
+#third h2 {
+    font-weight: 700;
+    font-style: italic;
+    font-family: 'Georgia', serif;
+    font-size: 3em;
+
+}
+
+#third p {
+    font-size: 1.5em;
+    margin-top: 50px;
+
+}
+
+.wine {
+    text-align: center;
+    float: left;
+    width: 33%;
+    background-color: aliceblue;
+
+}
+
+.wine img {
+    width: 40%
+
+}
+
+.wine a {
+    color: white;
+    background-color: #669900;
+    text-decoration: none;
+
+}
+
