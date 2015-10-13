@@ -1,5 +1,5 @@
 body {
-    font-family: 'Cinzel', sans-serif; font-size: 16px;
+    font-family: 'Cinzel', sans-serif; font-size: 12px;
 
 }
 
@@ -29,8 +29,8 @@ header a {
     margin-left: 15px;
 }
 
-#wine-back {
-    background: linear-gradient(to bottom, rgba(60, 20, 20, 0.9) 0%, rgba(60, 0, 0, 0.8) 100%), url('../imgs/wine-bg.jpg');
+#Quill {
+    background: linear-gradient(to bottom, rgba(20, 20, 20, 0.9) 0%, rgba(20, 0, 0, 0.8) 100%), url('../images/Quill.jpg')
     padding: 250px 200px;
     background-position: center;
     background-repeat: no-repeat;
