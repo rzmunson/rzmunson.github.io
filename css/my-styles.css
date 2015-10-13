@@ -48,7 +48,8 @@ header a {
 
 #quill p {
     margin-bottom: 15px;
-    font-size: 15px;
+    font-size: 25px;
+    color: red;
     
 
 }
@@ -57,17 +58,18 @@ header a {
     border: 3px solid white;
     color: white;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 20px;
     background-color: black;
 
 }
 
 
 
-#second div:first-child {
+#about-us div:first-child {
     float: left;
     text-align: center;
-    width: 40%;
+    width: 5%;
+    height: 5%;
     padding: 150px 25px;
 
 }
