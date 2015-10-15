@@ -63,31 +63,54 @@ header a {
 
 }
 
+.getstarted {
+    padding: 5px;
+
+}
 
 
-#about-us div:first-child {
+
+#about-us div {
     float: left;
     text-align: center;
-    width: 5%;
-    height: 5%;
-    padding: 50px 25px;
+    width: 47%;
+    height: 47%;
+    padding: 10px 10px;
 
 }
 
-#second h3 {
+#about-us h3 {
     font-weight: 700;
-    padding: 50px;
+    padding: 40px 5px;
     font-style: italic;
-    font-family: "Georgia", sans-serif;
+    font-family: "Cinzel", sans-serif;
+    font-size: 1.75em;
 
 }
 
-#second p {
-    padding: 25px;
+#about-us, img {
+    width: auto;
+    height: auto;
+    max-width: 85%;
+    max-height: 85%;
 
 }
 
-#third {
+#about-us p {
+    padding: 35px;
+    max-width: auto;
+    max-height: auto;
+    font-size: 1.5em;
+
+}
+
+#options div {
+    float: left;
+    text-align: center;
+    width: 20%;
+    padding: 5px;
+
+}
     /*shorthand below:
     background: linear-gradient(to bottom, rgba(60, 20, 20, 0.9) 0%, rgba(60, 0, 0, 0.8) 100%), url('../imgs/wine-bg.jpg');
     padding: 250px 200px;
@@ -96,8 +119,8 @@ header a {
     background-size: cover;
     text-align: center;
     color: #fff;*/
-    
-     background: linear-gradient(to bottom, rgba(60, 20, 20, 0.9) 0%, rgba(60, 0, 0, 0.8) 100%), url('../imgs/wine13.jpg') no-repeat;
+#options.img {
+     background: linear-gradient(to bottom, rgba(20, 20, 20, 0.9) 0%, rgba(20, 0, 0, 0.8) 100%), url('../images/code') no-repeat;
     padding: 150px 50px;
     background-size: cover;
     text-align: center;
