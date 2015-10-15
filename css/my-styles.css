@@ -88,7 +88,7 @@ header a {
 
 }
 
-#about-us, img {
+#about-us img {
     width: auto;
     height: auto;
     max-width: 85%;
@@ -107,8 +107,10 @@ header a {
 #options div {
     float: left;
     text-align: center;
-    width: 20%;
-    padding: 5px;
+    width: 23%;
+    height: 75%;
+    padding: 8px;
+    border-right: 1.5px solid black;
 
 }
     /*shorthand below:
@@ -119,26 +121,26 @@ header a {
     background-size: cover;
     text-align: center;
     color: #fff;*/
-#options.img {
-     background: linear-gradient(to bottom, rgba(20, 20, 20, 0.9) 0%, rgba(20, 0, 0, 0.8) 100%), url('../images/code') no-repeat;
-    padding: 150px 50px;
-    background-size: cover;
-    text-align: center;
-    color: #fff;
+#options img {
+    height: 138px;
+    width: auto;
+
+
 
 }
 
-#third h2 {
+#options h4 {
     font-weight: 700;
     font-style: italic;
-    font-family: 'Georgia', serif;
-    font-size: 3em;
+    font-family: 'Cinzel', serif;
+    font-size: 1.5em;
 
 }
 
-#third p {
-    font-size: 1.5em;
-    margin-top: 50px;
+#options p {
+    font-size: 1.25em;
+    text-align: center;
+    margin: 15px;
 
 }
 
