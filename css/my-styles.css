@@ -104,7 +104,7 @@ header a {
 
 }
 
-#options div {
+#published div {
     float: left;
     text-align: center;
     width: 23%;
@@ -121,15 +121,14 @@ header a {
     background-size: cover;
     text-align: center;
     color: #fff;*/
-#options img {
+#published img {
     height: 138px;
     width: 275px;
-
-
+    padding: 5px;
 
 }
 
-#options h4 {
+#published h4 {
     font-weight: 700;
     font-style: italic;
     font-family: 'Cinzel', serif;
@@ -137,7 +136,7 @@ header a {
 
 }
 
-#options p {
+#published p {
     font-size: 1.25em;
     text-align: center;
     margin: 15px;
