@@ -1,15 +1,15 @@
 html,
 body {
     height: 100%;
+    
 }
 
 .clear-nav {
-    background-color: Transparent;
+    background-color: black;
     background-repeat: no-repeat;
     border-bottom: 1px solid white;
     cursor: pointer;
     overflow: hidden;
-    background: black;
     color: white;
 }
 
@@ -93,19 +93,70 @@ body {
 
 #window img {
     width: 100%;
-    height: 100%;
 }
 
+#window article {
+    padding-top: 180px;
+}
 
 #published {
     width: 100%;
-    height: 100%;
+    height: auto;
     margin: 100px 0px;
     text-align: center;
     background-color: lightgray;
+    padding: 75px 0px;
 }
 
 #published img {
-    width: 75%;
-    height: 100px;
+    width: 175px;
+    height: 130px;
+}
+
+#options {
+    font-family: 'Cinzel', serif;
+    font-size: 12px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+#options p {
+    font-size: 25px;
+}
+
+#options img {
+    width: 275px;
+    height: 275px;
+}
+
+#contact {
+    background: linear-gradient(to bottom, rgba(20, 20, 20, 0.9) 0%, rgba(0, 0, 20, 0.8) 100%), url('../img/Quill.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    width: auto;
+
+}
+
+#contact p {
+    width: 100%;
+    font-size: 25px;
+    color: white;
+    padding-top: 100px;
+
+}
+
+#contact button {
+    background-color: black;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    color: white;
+    border: 1px solid white;
+    margin-bottom: 100px;
+
 }
