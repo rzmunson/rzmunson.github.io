@@ -1,7 +1,6 @@
 html,
 body {
     height: 100%;
-    
 }
 
 .clear-nav {
@@ -123,7 +122,6 @@ body {
 
 #options p {
     font-size: 25px;
-    
 }
 
 #options img {
@@ -140,7 +138,6 @@ body {
     color: #fff;
     width: auto;
     margin-top: 15px;
-
 }
 
 #contact p {
@@ -148,7 +145,6 @@ body {
     font-size: 25px;
     color: white;
     padding-top: 100px;
-
 }
 
 #contact button {
@@ -160,5 +156,4 @@ body {
     color: white;
     border: 1px solid white;
     margin-bottom: 100px;
-
 }
