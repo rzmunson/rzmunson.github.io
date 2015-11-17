@@ -123,6 +123,7 @@ body {
 
 #options p {
     font-size: 25px;
+    
 }
 
 #options img {
@@ -138,6 +139,7 @@ body {
     text-align: center;
     color: #fff;
     width: auto;
+    margin-top: 15px;
 
 }
 
